@@ -5,13 +5,13 @@ This is instruction of how you can run the container locally
 
 Firstly, you need to build a image using this command
 ```
-docker build -t {iamgeName} .
+docker build -t {imageName} .
 ```
 
 Then you need to run this image 
 
 ```
-docker run -d --name {imageName} -p 8080:8080 {containerName}
+docker run -d --name {containerName} -p 8080:8080 {imageName}
 ```
 
 Then you can visit the [http://localhost:8080] to check the website
